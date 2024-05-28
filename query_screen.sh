@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Download the peerlist file
-curl -o peerlist "https://raw.githubusercontent.com/0xOzgur/PeerManifestQuery/main/peerlist?token=GHSAT0AAAAAACPAQLMOF63AHIQI6Y23V33UZSVG3GA"
+curl -o peerlist "https://raw.githubusercontent.com/0xOzgur/PeerManifestQuery/main/peerlist"
 
 echo "Peer ID,Peer Base64,Difficulty,Difficulty Metric,Commit16 Metric,Commit128 Metric,Commit1024 Metric,Commit65536 Metric,Proof16 Metric,Proof128 Metric,Proof1024 Metric,Proof65536 Metric,Cores,Memory,Storage,Last Seen"
 
